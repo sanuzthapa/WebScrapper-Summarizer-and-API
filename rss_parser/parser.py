@@ -2,9 +2,7 @@ import feedparser
 from newspaper import Article
 from openai import OpenAI
 import os
-from dotenv import load_dotenv
 
-load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key) if api_key else None
 
@@ -15,9 +13,9 @@ def summarize_article(text: str) -> str:
         response = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages = [
-    {
-        "role": "user",
-        "content": f"""
+                {
+                    "role": "user",
+                    "content": f"""
 Summarize the following article in a concise and informative way. 
 
 Requirements:
@@ -28,9 +26,8 @@ Requirements:
 Article:
 {text}
 """
-    }
-]
-,
+                }
+            ],
             max_tokens=300
         )
         return response.choices[0].message.content.strip()
