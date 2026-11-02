@@ -59,13 +59,13 @@ A comprehensive web content extraction, intelligent summarization, and data mana
 
 ### 1. Home Dashboard
 The landing page introducing the suite, navigation instructions, and available tools.
-![Home Dashboard](images/home.png)
+![Home Dashboard](images/index_page.png)
 
 ---
 
 ### 2. RSS Feed & Direct Article URL Summarizer
 Fetch articles from live RSS feeds or parse individual URLs. Summarizes content using OpenAI GPT-3.5 with key insights, TL;DR, and hashtags, with instant CSV export.
-![RSS & URL Summarizer](images/rss_url_summarizer.png)
+![RSS & URL Summarizer](images/rss_feed_URL_summarizer.jpg)
 
 ---
 
