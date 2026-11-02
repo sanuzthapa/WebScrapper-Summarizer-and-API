@@ -59,8 +59,7 @@ A comprehensive web content extraction, intelligent summarization, and data mana
 
 ### 1. Home Dashboard
 The landing page introducing the suite, navigation instructions, and available tools.
-<img src="images/index_page.jpg" style="width: 300px; height: auto;" alt="Home Dashboard">
-
+![Home Dashboard](images/index_page.jpg)
 ---
 
 ### 2. RSS Feed & Direct Article URL Summarizer
